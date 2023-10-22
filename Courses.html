@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Courses</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="eduford.css">
+  <style>
+    .aboutUs-footer {
+      margin: 6em auto 2em;
+    }
+  </style>
+</head>
+<body>
+  <section class="aboutUs_header">
+  <nav class="nav_bar">
+    <img src="./logo.png" alt="logo" class="header-logo">
+
+    <i class="fa-solid fa-bars"></i>
+ 
+    <ul class="nav_menu">
+      <i class="fa-solid fa-xmark"></i>
+       <li class="nav_item"><a href="index.html" class="nav_link">HOME</a></li>
+       <li class="nav_item"><a href="About.html" class="nav_link">ABOUT</a></li>
+       <li class="nav_item"><a href="Courses.html" class="nav_link">COURSE</a></li>
+       <li class="nav_item"><a href="Blog.html" class="nav_link">BLOG</a></li>
+       <li class="nav_item"><a href="contact.html" class="nav_link">CONTACT</a></li>
+    </ul>
+  </nav>
+  
+   <div class="aboutUs">
+     <h1>Our Courses</h1>
+   </div>
+  </section>
+
+  
+  <section class="course-section">
+    <h1>Courses We Offer</h1>
+    <p>These are the list of Courses we offer in the best university ever.</p>
+
+    <div class="course-row">
+       <div class="course-col">
+          <h2>Intermediate</h2>
+          <p>intermediate technology,and engineering systems that economically disadvantaged farmers and other rural people can purchase or construct from resources that are available locally to improve their well-being.</p>
+       </div>
+       <div class="course-col">
+        <h2>Degree</h2>
+        <p>
+           More rarely, programs may culminate in a bachelor of arts (BA) degree. Both options focus mainly on technical skills. BA programs, however, may also build creative skills in adjacent areas, such as web design or game development.</p>
+       </div>
+       <div class="course-col">
+         <h2>PostGraduate</h2>
+         <p>A postgraduate degree in IT and computing can give you the chance to be creative and branch out into other areas, as well as to develop a skillset that will be unique to you.</p>
+       </div>
+    </div>
+  </section>
+
+
+  
+  <section class="facilities-section">
+    <h2>Our Facilities</h2>
+    <p>Lorem ipsum solor sit amet, consectetur adipiscing elit.t</p>
+  
+    <div class="facility_container">
+    <div class="facility">
+     <img src="./library.png" alt="library">
+     <h3>World Class Library</h3>
+     <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+    </div>
+    <div class="facility">
+     <img src="./basketball.png" alt="library">
+     <h3>Largest Play Ground</h3>
+     <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+    </div>
+    <div class="facility">
+     <img src="./cafeteria.png" alt="library">
+     <h3>Tasty and Healthy Food</h3>
+     <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+    </div>
+    </div>
+ </section>
+
+  
+
+  <section class="aboutUs-footer">
+     <h3>About Us</h3>
+     <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est
+      sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+
+      <ul class="footer_menu">
+        <li><a href="#" class="link"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#" class="link"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#" class="link"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+        <li><a href="#" class="link"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#" class="link"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+  </section>
+</body>
+
+<script>
+   let showMenu = document.querySelector('.fa-bars');
+   let cancelButton = document.querySelector('.fa-xmark')
+   let navMenu = document.querySelector('.nav_menu');
+
+    showMenu.addEventListener('click',()=>{
+       navMenu.style.right = '0'
+    })
+
+    cancelButton.addEventListener('click',()=>{
+      navMenu.style.right = '-200px'
+    })
+</script>
+</html>
